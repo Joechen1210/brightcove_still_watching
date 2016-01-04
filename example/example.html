@@ -1,1 +1,32 @@
+<!doctype html>
+<html>
 
+<head>
+  <meta charset="UTF-8">
+  <title>Still Watching</title>
+	
+</head>
+ 
+<body>
+ 
+   <video data-account="4005328949001" 
+          data-player="950b8a89-e5c7-4c90-9bc1-49f2c29401f4" 
+          data-embed="default" 
+          class="video-js" controls=""></video>
+
+  <p>Show "Are you still there?" message after <input id="timeCheckOption" value="5" size="5" 
+      style="width:20px;text-align:center;" /> seconds or <input id="videoCheckOption" value="2" size="5" 
+      style="width:20px;text-align:center;" /> videos. If the message is not clicked, pause the video after 
+      <input id="timeOutOption" value="5" size="5" style="width:20px;text-align:center;" /> seconds.</p>
+  
+  <fieldset>
+      <legend>Message Box</legend>
+      <p>Videos since last check: <span id="videosSinceLastCheck"></span></p>
+      <p>Time elapsed since last check: <span id="timeSinceLastCheck"></span> seconds</p>
+      <p>Current position: <span id="currentPosition"></span> seconds</p>
+  </fieldset>
+
+ <script src="//players.brightcove.net/4005328949001/950b8a89-e5c7-4c90-9bc1-49f2c29401f4_default/index.min.js"></script> 
+ 
+</body>
+</html>
